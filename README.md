@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ## Data Preparation
 Please follow the instructions at [dataset.md](dataset.md) to prepare the following datasets: Caltech101, OxfordPets, Flowers102, Food101, DTD.
 
-For CIFAR10 and CIFAR100 datasets, please download and unzip data under `DATA\` file catalog. Or simply run experiments with CIFAR10/CIFAR100 dataset, the program will download data automatically.
+For CIFAR10 and CIFAR100 datasets, please download and unzip data under `DATA/` file catalog. Or simply run experiments with CIFAR10/CIFAR100 dataset, the program will download data automatically.
 
 For DomainNet and office-caltech10 datasets, please follow the instructions of Dataset described [here](https://github.com/med-air/FedBN/blob/master/README.md). 
 
