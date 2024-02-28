@@ -1,0 +1,8 @@
+torch==1.10.2
+torchvision==0.11.3
+scikit-learn==1.1.1
+numpy==1.22.4
+scipy==1.8.1
+ftfy==6.1.1
+regex
+tqdm
