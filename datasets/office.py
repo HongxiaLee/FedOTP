@@ -1,9 +1,6 @@
 import os
 
-# from Dassl.dassl.data.datasets import DATASET_REGISTRY, Datum, DatasetBase
-# from Dassl.dassl.data.datasets import DatasetBase
-from datasplit import partition_data
-from data_utils import prepare_data_office, prepare_data_office_partition_train
+from utils.data_utils import prepare_data_office, prepare_data_office_partition_train
 
 # @DATASET_REGISTRY.register()
 class Office():

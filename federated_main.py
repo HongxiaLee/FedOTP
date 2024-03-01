@@ -10,7 +10,7 @@ import gc
 import copy
 from prettytable import PrettyTable
 import numpy as np
-from fed_utils import average_weights, count_parameters
+from utils.fed_utils import average_weights, count_parameters
 
 def print_args(args, cfg):
     print("***************")

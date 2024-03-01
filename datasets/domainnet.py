@@ -1,9 +1,6 @@
 import os
 
-# from Dassl.dassl.data.datasets import DATASET_REGISTRY, Datum, DatasetBase
-# from Dassl.dassl.data.datasets import DatasetBase
-from datasplit import partition_data
-from data_utils import prepare_data_domainNet, prepare_data_domainNet_partition_train, prepare_data_domainNet_partition_client_train
+from utils.data_utils import prepare_data_domainNet, prepare_data_domainNet_partition_train, prepare_data_domainNet_partition_client_train
 
 # @DATASET_REGISTRY.register()
 class DomainNet():
