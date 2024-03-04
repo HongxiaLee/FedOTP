@@ -1,5 +1,5 @@
 # Global and Local Prompts Cooperation via Optimal Transport for Federated Learning [CVPR2024]
-The implementation of paper **Global and Local Prompts Cooperation via Optimal Transport for Federated Learning (CVPR2024)**.[paper](https://arxiv.org/pdf/2403.00041.pdf)
+The implementation of paper **Global and Local Prompts Cooperation via Optimal Transport for Federated Learning (CVPR2024)**.[[paper]](https://arxiv.org/pdf/2403.00041.pdf)
 ![FedOTP-pipeline](FedOTP-pipeline.png "FedOTP-pipeline")
 
 ## Requirements
