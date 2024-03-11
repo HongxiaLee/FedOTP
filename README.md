@@ -45,4 +45,13 @@ and run `bash scripts/fedotp_few_shot.sh`
 
 After the experiments, all the results are finished and save to `output/`.
 
-We build and modify the code based on Dassl and CoOp. 
+## Citation
+If you find our work useful in your research, please consider citing:
+```
+@article{li2024global,
+  title={Global and Local Prompts Cooperation via Optimal Transport for Federated Learning},
+  author={Li, Hongxia and Huang, Wei and Wang, Jingya and Shi, Ye},
+  journal={arXiv preprint arXiv:2403.00041},
+  year={2024}
+}
+```
