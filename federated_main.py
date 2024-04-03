@@ -246,7 +246,7 @@ def main(args):
                 local_trainer.model.load_state_dict(global_weights,strict=False)
                 local_trainer.train(idx=idx, global_epoch=epoch, is_fed=True)
                 local_weight = local_trainer.model.state_dict()
-                local_weights[idx] = local_weight
+                local_weights[idx] = copy.deepcopy(local_weight)
             print("------------local train finish epoch:", epoch, "-------------")
 
             global_weights = average_weights(local_weights,idxs_users, datanumber_client)
@@ -303,7 +303,7 @@ def main(args):
                 local_trainer.model.load_state_dict(global_weights,strict=False)
                 local_trainer.train(idx=idx, global_epoch=epoch, is_fed=True, global_weight=global_weights, fedprox=True, mu=args.mu)
                 local_weight = local_trainer.model.state_dict()
-                local_weights[idx] = local_weight
+                local_weights[idx] = copy.deepcopy(local_weight)
             print("------------local train finish epoch:", epoch, "-------------")
 
             global_weights = average_weights(local_weights, idxs_users, datanumber_client)
